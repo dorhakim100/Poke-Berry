@@ -1,0 +1,97 @@
+body {
+    background-color: rgb(79, 0, 0);
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    text-align: center;
+    background-image: url('../img/background.gif');
+    background-position: center;
+}
+
+.screen{
+    background-color: rgb(79, 0, 0);
+    width: fit-content;
+    margin: 0 auto;
+}
+
+h1{
+    font-size: 50px;
+}
+
+.character-btn{
+    background-color: red;
+    height: 50px;
+    width: 100px;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: antiquewhite;
+    border-width: 5px;
+}
+.character-btn:hover{
+    background-color: rgb(167, 255, 249);
+    cursor: pointer;
+    font-weight: bold;
+}
+
+.background{
+    height: 200px;
+    margin-left: 900px;
+    margin-top: 30px;
+    
+}
+
+table {
+    margin: 50px auto;
+}
+
+.cell {
+    width: 40px;
+    height: 40px;
+    text-align: center;
+}
+
+.cell img {
+    width: 30px;
+    height: auto;
+}
+
+
+.floor {
+    background-color: rgb(183, 183, 183);
+    background-image: url('../img/grass.png');
+    background-size: cover;
+}
+
+.wall {
+    background-color: rgb(78, 119, 150);
+}
+
+.teleport{
+
+    background-image: url('../img/teleport.png');
+    background-size: cover;
+}
+
+.balls-collected{
+    font-size: 40px;
+    
+}
+
+.balls-around{
+    font-size: 30px;
+}
+
+.restart-btn{
+    background-color: rgb(0, 81, 255);
+    height: 50px;
+    width: 120px;
+    font-size: 15px;
+    font-weight: bold;
+    border-color: antiquewhite;
+    border-width: 5px;
+}
+
+.restart-btn:hover{
+    background-color: rgb(167, 255, 249);
+    cursor: pointer;
+    font-weight: bold;
+}
